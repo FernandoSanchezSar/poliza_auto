@@ -4,32 +4,32 @@
 
 #### Resumen ejecutivo
 Cada vez que uno adquiere una póliza de seguros para un automóvil se pregunta si el costo de la prima es justo y se encuentra en el promedio del mercado y mejor aún si está por debajo del promedio.
-En el mercado las empresas aseguradoras para definir sus precios de las primas tienen diferentes estratégicas, unas se enfocan en el alcance de las coberturas, otras en proporcionar servicios adicionales y otras mas audaces en el comportamiento del conductor. Este proyecto tomará la información que las aseguradoras consideran relevantes hoy en día para realiza la cotización a sus clientes. 
+En el mercado las empresas aseguradoras para definir sus precios de las primas tienen diferentes estratégicas, unas se enfocan en el alcance de las coberturas, otras en proporcionar servicios adicionales y otras mas audaces en el comportamiento del conductor. Este proyecto tomará la información que las aseguradoras consideran relevantes hoy en día para realiza la cotización a sus clientes.<br>
 El producto final de este proyecto es la creación de un modelo para predicir el precio de una póliza de seguros y saber cuáles son los principales factores que impactan en este precio que constituye la base de la creación de un startup que seguidamente buscará socios inversionistas para la creación de una aplicación Web y móvil.
 #### Fundamento
 Las personas antes de adquirir o renovar una póliza de seguro de automóvil desearían saber si van a pagar el precio justo para el alcance de la cobertura y servicios que se ofrece. Para ello el cliente o futuro asegurado puede contar con la información necesaria para tomar una decisión, conociendo cuales son las características mas importantes que definen el precio de una póliza. Con este conocimiento podrían negociar con las aseguradoras y ajustar estas características para obtener un precio al alcance de su presupuesto de ser necesario.  
 #### Pregunta de investigación
 Cuales son las principales características en la determinación del precio de un seguro de automóvil por parte de las empresas aseguradoras. Esta información será útil para un cliente nuevo o antiguo que quisiera renovar su póliza.
 #### Fuentes de datos
-Los datos que se utilizarán para responder las pregunta son los datos de ingreso a los cotizadores más los datos de respuesta de estas aplicaciones. Los datos de entrada fueron preparados tratando de cubrir los diversos tipos de automóviles, marcas, modelos y fechas de fabricación entre otros datos relevantes y como respuesta de las aplicaciones obtuvimos un tipo de tarifa, valor comercial del vehículo, la cobertura, servicios adicionales y el costo de la prima.
+Los datos que se utilizarán para responder las pregunta son los datos de ingreso a los cotizadores más los datos de respuesta de estas aplicaciones. Los datos de entrada fueron preparados tratando de cubrir los diversos tipos de automóviles, marcas, modelos y fechas de fabricación entre otros datos relevantes y como respuesta de las aplicaciones obtuvimos un tipo de tarifa, valor comercial del vehículo, la cobertura, servicios adicionales y el costo de la prima.<br>
 Estos son los datos de entrada.<br>
 •	Nombre de la persona que solicita el seguro.<br>
-•	Fecha de nacimiento
-•	Documento de identidad
-•	Placa (opcional)
-•	Dirección
-•	Año de fábrica del vehículo
-•	Uso del vehículo
-Esta es la información de salida de la aplicación en línea
-•	Precio comercial del vehículo
-•	Plan que ofrece la aseguradora
-•	Cobertura de la póliza que depende del plan ofrecido.
-•	Servicios adicionales
-•	Historial de siniestralidad del conductor. (*)
+•	Fecha de nacimiento.<br>
+•	Documento de identidad.<br>
+•	Placa (opcional).<br>
+•	Dirección.<br>
+•	Año de fábrica del vehículo.<br>
+•	Uso del vehículo.<br>
+Esta es la información de salida de la aplicación en línea.<br>
+•	Precio comercial del vehículo.<br>
+•	Plan que ofrece la aseguradora.<br>
+•	Cobertura de la póliza que depende del plan ofrecido.<br>
+•	Servicios adicionales.<br>
+•	Historial de siniestralidad del conductor. (*).<br>
 
-(*) En la etapa de entendimiento de los datos se verificará si estos datos son necesarios para el análisis.
+(*) En la etapa de entendimiento de los datos se verificará si estos datos son necesarios para el análisis.<br>
 #### Metodología
-Para predecir el precio de una póliza de automóvil y determinar los principales factores que influyen en este precio, emplearemos técnicas de Machine Learning supervisado (regresión) y análisis de importancia de características.
+Para predecir el precio de una póliza de automóvil y determinar los principales factores que influyen en este precio, emplearemos técnicas de Machine Learning supervisado (regresión) y análisis de importancia de características.<br>
 Para seleccionar el modelo para predecir el valor de la prima probaremos los modelos:  Regresión lineal regularizada, que es muy interpretativa y nos permitirá obtener coeficientes asociados a cada característica para identificar los factores mas importantes. Y usaremos la regularización Lasso para manejar colinealidad o muchas características irrelevantes.
 Random Forest, que captura relaciones no lineales entre las características y el precio. También, permite obtener la importancia de las características.
 Gradient Boosting XGBoost, es un modelo más avanzado y potente que los árboles simples y ofrecen medidas precisas de importancia de características. 

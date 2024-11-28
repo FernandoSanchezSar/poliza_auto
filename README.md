@@ -52,8 +52,7 @@ Paralelamente, podríamos ir mejorando el modelo con las siguientes actividades:
 
 #### Esquema del proyecto
 
-- [Enlace al cuaderno 1]()
-- [Enlace al cuaderno 2]()
-- [Enlace al cuaderno 3]()
+- [Enlace al cuaderno 1](https://github.com/FernandoSanchezSar/poliza_auto/blob/main/Calcular%20la%20prima%20de%20una%20poliza.ipynb)<br>
+
 
 ##### Contacto e información adicional

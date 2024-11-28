@@ -12,8 +12,8 @@ Las personas antes de adquirir o renovar una póliza de seguro de automóvil des
 Cuales son las principales características en la determinación del precio de un seguro de automóvil por parte de las empresas aseguradoras. Esta información será útil para un cliente nuevo o antiguo que quisiera renovar su póliza.
 #### Fuentes de datos
 Los datos que se utilizarán para responder las pregunta son los datos de ingreso a los cotizadores más los datos de respuesta de estas aplicaciones. Los datos de entrada fueron preparados tratando de cubrir los diversos tipos de automóviles, marcas, modelos y fechas de fabricación entre otros datos relevantes y como respuesta de las aplicaciones obtuvimos un tipo de tarifa, valor comercial del vehículo, la cobertura, servicios adicionales y el costo de la prima.
-Estos son los datos de entrada.
-•	Nombre de la persona que solicita el seguro
+Estos son los datos de entrada.<br>
+•	Nombre de la persona que solicita el seguro.<br>
 •	Fecha de nacimiento
 •	Documento de identidad
 •	Placa (opcional)
